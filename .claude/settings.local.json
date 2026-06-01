@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Read(//Users/austinpemble/.pyenv/**)",
+      "Read(//Users/austinpemble/miniforge3/**)",
+      "Read(//Users/austinpemble/miniconda3/**)",
+      "Read(//opt/homebrew/Caskroom/**)",
+      "Bash(/Users/austinpemble/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 *)",
+      "Bash(jupyter kernelspec *)",
+      "Bash(xargs -I{} sh -c '{} -c \"import sklearn\" 2>/dev/null && echo {}')"
+    ]
+  }
+}
